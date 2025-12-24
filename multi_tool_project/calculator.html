@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Standard Calculator</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+<div class="calc">
+  <input id="display" class="display" readonly />
+  <div class="keys">
+    <button onclick="clearAll()">AC</button>
+    <button onclick="toggleSign()">±</button>
+    <button onclick="percent()">%</button>
+    <button class="op" onclick="press('/')">÷</button>
+    <button onclick="press('7')">7</button>
+    <button onclick="press('8')">8</button>
+    <button onclick="press('9')">9</button>
+    <button class="op" onclick="press('*')">×</button>
+    <button onclick="press('4')">4</button>
+    <button onclick="press('5')">5</button>
+    <button onclick="press('6')">6</button>
+    <button class="op" onclick="press('-')">−</button>
+    <button onclick="press('1')">1</button>
+    <button onclick="press('2')">2</button>
+    <button onclick="press('3')">3</button>
+    <button class="op" onclick="press('+')">+</button>
+    <button class="zero" onclick="press('0')">0</button>
+    <button onclick="press('.')">.</button>
+    <button class="equal" onclick="equal()">=</button>
+     </div>
+    <button class="btn back" onclick="history.back()">⬅ Back</button
+</div>
+
+
+
+<script src="script2.js"></script>
+</body>
+</html>
